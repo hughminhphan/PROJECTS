@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "XT60-M")(type "KiCad")(uri "${KIPRJMOD}/LIB/XT60-M/XT60-M.kicad_sym")(options "")(descr ""))
+  (lib (name "B3B-XH-A_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/LIB/B3B-XH-A_LF__SN_/B3B-XH-A_LF__SN_.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/LIB/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-DEVKITC")(type "KiCad")(uri "${KIPRJMOD}/LIB/ESP32-DEVKITC/ESP32-DEVKITC.kicad_sym")(options "")(descr ""))
+)

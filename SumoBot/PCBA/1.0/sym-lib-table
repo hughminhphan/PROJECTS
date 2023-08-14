@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "CON_282837-2")(type "KiCad")(uri "C:/Users/hughp/Documents/PROJECTS/SumoBot/PCBA/Components/CON_282837-2/CON_282837-2.kicad_sym")(options "")(descr ""))
+  (lib (name "Arduino_Nano")(type "KiCad")(uri "C:/Users/hughp/Documents/PROJECTS/SumoBot/PCBA/Components/Arduino_Nano/Arduino_Nano.kicad_sym")(options "")(descr ""))
+  (lib (name "AZ1117IH-3.3TRG1")(type "KiCad")(uri "C:/Users/hughp/Documents/PROJECTS/SumoBot/PCBA/Components/AZ1117IH-3.3TRG1/AZ1117IH-3.3TRG1.kicad_sym")(options "")(descr ""))
+  (lib (name "C0805C106K8PACTU")(type "KiCad")(uri "C:/Users/hughp/Documents/PROJECTS/SumoBot/PCBA/Components/C0805C106K8PACTU/C0805C106K8PACTU.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8833PWP")(type "KiCad")(uri "C:/Users/hughp/Documents/PROJECTS/SumoBot/PCBA/Components/DRV8833PWP/DRV8833PWP.kicad_sym")(options "")(descr ""))
+)

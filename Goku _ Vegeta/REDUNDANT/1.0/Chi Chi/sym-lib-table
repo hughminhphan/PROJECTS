@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name "Chi Chi-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Chi Chi-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "ALS-PT19-315C_L177_TR8")(type "KiCad")(uri "${KIPRJMOD}/Chi Chi Lib/ALS-PT19-315C_L177_TR8/ALS-PT19-315C_L177_TR8.kicad_sym")(options "")(descr ""))
+  (lib (name "ATTINY828R-AUR")(type "KiCad")(uri "${KIPRJMOD}/Chi Chi Lib/ATTINY828R-AUR/ATTINY828R-AUR.kicad_sym")(options "")(descr ""))
+  (lib (name "SPMWHT541ML5XATMS6")(type "KiCad")(uri "${KIPRJMOD}/Chi Chi Lib/SPMWHT541ML5XATMS6/SPMWHT541ML5XATMS6.kicad_sym")(options "")(descr ""))
+  (lib (name "SSQ-103-01-T-D")(type "KiCad")(uri "${KIPRJMOD}/Chi Chi Lib/SSQ-103-01-T-D/SSQ-103-01-T-D.kicad_sym")(options "")(descr ""))
+  (lib (name "TSW-103-07-F-D")(type "KiCad")(uri "${KIPRJMOD}/Chi Chi Lib/TSW-103-07-F-D/TSW-103-07-F-D.kicad_sym")(options "")(descr ""))
+)

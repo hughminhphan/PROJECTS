@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "DC-DC Buck Converter 7-24V to 5V 4A")(type "KiCad")(uri "${KIPRJMOD}/LIB/DC-DC Buck Converter 7-24V to 5V 4A/DC-DC Buck Converter 7-24V to 5V 4A.kicad_sym")(options "")(descr ""))
+  (lib (name "DC-DC Multi-output Buck Converter (3")(type "KiCad")(uri "${KIPRJMOD}/LIB/DC-DC Multi-output Buck Converter (3.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+  (lib (name "B3B-XH-A_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/LIB/B3B-XH-A_LF__SN_")(options "")(descr ""))
+  (lib (name "ESP32-DEVKITC")(type "KiCad")(uri "${KIPRJMOD}/LIB/ESP32-DEVKITC")(options "")(descr ""))
+  (lib (name "XT60-M")(type "KiCad")(uri "${KIPRJMOD}/LIB/XT60-M")(options "")(descr ""))
+)

@@ -1,0 +1,12 @@
+(fp_lib_table
+  (lib (name "2.3 PCBs")(type "KiCad")(uri "${KIPRJMOD}/LIB/2.3 PCBs.pretty")(options "")(descr ""))
+  (lib (name "5mm Pitch 2-Pin Screw Terminal Block")(type "KiCad")(uri "${KIPRJMOD}/LIB/5mm Pitch 2-Pin Screw Terminal Block")(options "")(descr ""))
+  (lib (name "Adafruit 9-DOF Orientation IMU Fusion Breakout - BNO085 (BNO080) - STEMMA QT  Qwiic")(type "KiCad")(uri "${KIPRJMOD}/LIB/Adafruit 9-DOF Orientation IMU Fusion Breakout - BNO085 (BNO080) - STEMMA QT  Qwiic")(options "")(descr ""))
+  (lib (name "Adafruit MPM3610 3D model only")(type "KiCad")(uri "${KIPRJMOD}/LIB/Adafruit MPM3610 3D model only")(options "")(descr ""))
+  (lib (name "B4B-XH-A_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/LIB/B4B-XH-A_LF__SN_")(options "")(descr ""))
+  (lib (name "Box IDC header 2x3")(type "KiCad")(uri "${KIPRJMOD}/LIB/Box IDC header 2x3")(options "")(descr ""))
+  (lib (name "Box IDC header 2x5")(type "KiCad")(uri "${KIPRJMOD}/LIB/Box IDC header 2x5")(options "")(descr ""))
+  (lib (name "ESP32-DEVKITC")(type "KiCad")(uri "${KIPRJMOD}/LIB/ESP32-DEVKITC")(options "")(descr ""))
+  (lib (name "IC_SN74CB3T3245PWR")(type "KiCad")(uri "${KIPRJMOD}/LIB/IC_SN74CB3T3245PWR")(options "")(descr ""))
+  (lib (name "XT60-M")(type "KiCad")(uri "${KIPRJMOD}/LIB/XT60-M")(options "")(descr ""))
+)

@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "ALS-PT19-315C_L177_TR8")(type "KiCad")(uri "${KIPRJMOD}/LIB/ALS-PT19-315C_L177_TR8")(options "")(descr ""))
+  (lib (name "Box IDC header 2x3")(type "KiCad")(uri "${KIPRJMOD}/LIB/Box IDC header 2x3")(options "")(descr ""))
+  (lib (name "ESP32-DEVKITC")(type "KiCad")(uri "${KIPRJMOD}/LIB/ESP32-DEVKITC")(options "")(descr ""))
+  (lib (name "JB2835AWT-W-U30GA0000-N0000001")(type "KiCad")(uri "${KIPRJMOD}/LIB/JB2835AWT-W-U30GA0000-N0000001")(options "")(descr ""))
+  (lib (name "NXV55UNR")(type "KiCad")(uri "${KIPRJMOD}/LIB/NXV55UNR")(options "")(descr ""))
+)

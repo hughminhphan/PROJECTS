@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "FC-102-BRIGHT-TIN")(type "KiCad")(uri "${KIPRJMOD}/LIB/FC-102-BRIGHT-TIN/FC-102-BRIGHT-TIN.kicad_sym")(options "")(descr ""))
+)

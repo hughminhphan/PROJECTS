@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Infraready PCBs-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Infraready PCBs-eagle-import.kicad_sym")(options "")(descr ""))
+)

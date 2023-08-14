@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "boden2021_V35-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/boden2021_V35-eagle-import.kicad_sym")(options "")(descr ""))
+)

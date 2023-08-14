@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "COM-09032")(type "KiCad")(uri "C:/Users/hughp/Documents/PROJECTS/SumoBot/PCBA/Components/COM-09032/COM-09032.kicad_sym")(options "")(descr ""))
+  (lib (name "switchwled")(type "KiCad")(uri "${KIPRJMOD}/switchwled.kicad_sym")(options "")(descr ""))
+)

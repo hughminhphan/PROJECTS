@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\hughp\Documents\PROJECTS\CG22\PCBA\CG22STAGE_MODULE\CG22STAGE_MODULE\CG22STAGE_MODULE.kicad_sch</source>
+    <date>27/01/2023 11:13:23 AM</date>
+    <tool>Eeschema (6.0.9)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CG22STAGE_MODULE.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1000U_450V</value>
+      <footprint>Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca80cb73-f7de-4b86-bd8d-de9051da896b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>2U2_10V</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb14f13c-0a48-46f5-b199-dad843634441</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>2U2_10V</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a72ad7da-4ac9-463a-b8a5-9a5795130216</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SCR_70TPS12</value>
+      <footprint>Package_TO_SOT_THT:TO-247-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_SCR_KAG" description="Silicon controlled rectifier, cathode/anode/gate"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d8fefec-338e-4d7a-9805-a0031d7cafef</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>FR607</value>
+      <footprint>Diode_THT:D_P600_R-6_P12.70mm_Horizontal</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/5kp65.pdf</datasheet>
+      <libsource lib="Diode" part="5KPxxA" description="5000W unidirectional Transient Voltage Suppressor, P-600"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f83956ae-00a6-4100-a72c-6a06334fbd8c</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66062688-48cb-45aa-803e-f298f559cf05</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42b05bcd-40e0-409f-8267-3aa0cd8a4fe1</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>DRILL_BAT</value>
+      <footprint>2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5:2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole</footprint>
+      <fields>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+      </fields>
+      <libsource lib="2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole" part="1935161" description=""/>
+      <property name="MANUFACTURER" value="Phoenix Contact"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f25b1415-8b2f-45cb-b3b9-cfd0cc183f96</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>BST_CONV</value>
+      <footprint>2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5:2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole</footprint>
+      <fields>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+      </fields>
+      <libsource lib="2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole" part="1935161" description=""/>
+      <property name="MANUFACTURER" value="Phoenix Contact"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e0336d3-cfa1-414f-9b7c-5e60df1db8bd</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>2AAA_BATT</value>
+      <footprint>2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5:2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole</footprint>
+      <fields>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+      </fields>
+      <libsource lib="2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole" part="1935161" description=""/>
+      <property name="MANUFACTURER" value="Phoenix Contact"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e07ba216-53b5-482a-899d-454930994949</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>2AAA_BATT</value>
+      <footprint>2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5:2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole</footprint>
+      <fields>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+      </fields>
+      <libsource lib="2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole" part="1935161" description=""/>
+      <property name="MANUFACTURER" value="Phoenix Contact"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdd66947-bee2-4637-a29a-d274035ed930</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>DRILL_BAT</value>
+      <footprint>2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5:2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole</footprint>
+      <fields>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+      </fields>
+      <libsource lib="2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole" part="1935161" description=""/>
+      <property name="MANUFACTURER" value="Phoenix Contact"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>374eb715-f74e-46c6-aa53-7b349577855d</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>BST_CONV</value>
+      <footprint>2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5:2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole</footprint>
+      <fields>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+      </fields>
+      <libsource lib="2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole" part="1935161" description=""/>
+      <property name="MANUFACTURER" value="Phoenix Contact"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9453044e-cc66-4eae-b249-03c9fe83bb62</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>COIL</value>
+      <footprint>2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5:2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole</footprint>
+      <fields>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+      </fields>
+      <libsource lib="2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole" part="1935161" description=""/>
+      <property name="MANUFACTURER" value="Phoenix Contact"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8799718f-a5f6-46ca-82d4-27decb894a63</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>LTA-1000HR</value>
+      <footprint>LTA-1000HR:LTA-1000HR</footprint>
+      <libsource lib="LTA-1000HR" part="LTA-1000HR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>525bb9a1-61ac-4b14-96fe-fa2cc3f00fb4</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b3cc615-face-40ae-b11f-ff20e4fc2346</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>316676de-1531-4f08-be24-1735ba07e64a</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c952669c-ffce-4dee-ba55-1f16d6a31549</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>3K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ef259bf-7b9c-474a-913b-2cb7ce881d6f</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>680383b5-2eed-4bf0-a634-e12358f2c3f0</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cb13b6e-905f-4569-ba0f-e0c552f368a4</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a24da5d-e0d3-4105-8193-79bc2d704682</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LTH-301-32</value>
+      <footprint>LTH-301-32:LTH-301-32</footprint>
+      <libsource lib="LTH-301-32" part="LTH-301-32" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a05f5861-9dfd-4736-b4e2-61c3b47e9197</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM3914N</value>
+      <footprint>Package_DIP:DIP-18_W7.62mm_LongPads</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lm3914.pdf</datasheet>
+      <libsource lib="Driver_LED" part="LM3914N" description="10 LED Dot/Bar Display Driver, DIP-18"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ee61531-a255-40cd-993f-891b709e4682</tstamps>
+    </comp>
+    <comp ref="VR1">
+      <value>3362P-1-504LF</value>
+      <footprint>3362P-1-504LF:3362P-1-504LF</footprint>
+      <fields>
+        <field name="MF">Bourns</field>
+        <field name="MP">3362P-1-205LF</field>
+        <field name="PARTREV">08/26/10</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+      </fields>
+      <libsource lib="3362P-1-504LF" part="3362P-1-504LF" description=""/>
+      <property name="MP" value="3362P-1-205LF"/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="MF" value="Bourns"/>
+      <property name="PARTREV" value="08/26/10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CG22STAGE_MODULE.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7a37309-91eb-41c9-a635-ab990b8bbfcd</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole" part="1935161">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">1935161</field>
+        <field name="Footprint">PHOENIX_1935161</field>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="3362P-1-504LF" part="3362P-1-504LF">
+      <fields>
+        <field name="Reference">VR</field>
+        <field name="Value">3362P-1-504LF</field>
+        <field name="Footprint">TRIM_3362P-1-504LF</field>
+        <field name="MP">3362P-1-205LF</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="MF">Bourns</field>
+        <field name="PARTREV">08/26/10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_SCR_KAG">
+      <description>Silicon controlled rectifier, cathode/anode/gate</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Q_SCR_KAG</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4007">
+      <description>1000V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="5KPxxA">
+      <description>5000W unidirectional Transient Voltage Suppressor, P-600</description>
+      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/5kp65.pdf</docs>
+      <footprints>
+        <fp>D?P600*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">5KPxxA</field>
+        <field name="Footprint">Diode_THT:D_P600_R-6_P20.00mm_Horizontal</field>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/5kp65.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_LED" part="LM3914N">
+      <description>10 LED Dot/Bar Display Driver, DIP-18</description>
+      <docs>https://www.ti.com/lit/ds/symlink/lm3914.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM3914N</field>
+        <field name="Footprint">Package_DIP:DIP-18_W7.62mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lm3914.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LED1" type="open_collector"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="V+" type="power_in"/>
+        <pin num="4" name="RLO" type="input"/>
+        <pin num="5" name="SIG" type="input"/>
+        <pin num="6" name="RHI" type="input"/>
+        <pin num="7" name="REFOUT" type="output"/>
+        <pin num="8" name="REFADJ" type="input"/>
+        <pin num="9" name="MODE" type="input"/>
+        <pin num="10" name="LED10" type="open_collector"/>
+        <pin num="11" name="LED9" type="open_collector"/>
+        <pin num="12" name="LED8" type="open_collector"/>
+        <pin num="13" name="LED7" type="open_collector"/>
+        <pin num="14" name="LED6" type="open_collector"/>
+        <pin num="15" name="LED5" type="open_collector"/>
+        <pin num="16" name="LED4" type="open_collector"/>
+        <pin num="17" name="LED3" type="open_collector"/>
+        <pin num="18" name="LED2" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="LTA-1000HR" part="LTA-1000HR">
+      <footprints>
+        <fp>LTA-1000HR_LTO</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LTA-1000HR</field>
+        <field name="Footprint">LTA-1000HR_LTO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+        <pin num="7" name="7" type="unspecified"/>
+        <pin num="8" name="8" type="unspecified"/>
+        <pin num="9" name="9" type="unspecified"/>
+        <pin num="10" name="10" type="unspecified"/>
+        <pin num="11" name="11" type="unspecified"/>
+        <pin num="12" name="12" type="unspecified"/>
+        <pin num="13" name="13" type="unspecified"/>
+        <pin num="14" name="14" type="unspecified"/>
+        <pin num="15" name="15" type="unspecified"/>
+        <pin num="16" name="16" type="unspecified"/>
+        <pin num="17" name="17" type="unspecified"/>
+        <pin num="18" name="18" type="unspecified"/>
+        <pin num="19" name="19" type="unspecified"/>
+        <pin num="20" name="20" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="LTH-301-32" part="LTH-301-32">
+      <footprints>
+        <fp>LTH-301-32_LTO</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTH-301-32</field>
+        <field name="Footprint">LTH-301-32_LTO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole">
+      <uri>C:\Users\hughp\Documents\KiCad\6.0\imported/2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole/2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole.kicad_sym</uri>
+    </library>
+    <library logical="3362P-1-504LF">
+      <uri>C:/Users/hughp/Documents/KiCad/6.0/imported/3362P-1-504LF/3362P-1-504LF.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Driver_LED">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Driver_LED.kicad_sym</uri>
+    </library>
+    <library logical="LTA-1000HR">
+      <uri>C:/Users/hughp/Documents/KiCad/6.0/imported/LTA-1000HR/LTA-1000HR.lib</uri>
+    </library>
+    <library logical="LTH-301-32">
+      <uri>C:/Users/hughp/Documents/KiCad/6.0/imported/LTH-301-32/LTH-301-32.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="LED1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="LED1" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="LED1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="LED1" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="LED1" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="LED1" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="LED1" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="LED1" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="LED1" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="LED1" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="+18V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="V+" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="MODE" pintype="input"/>
+    </net>
+    <net code="3" name="+400V">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U1" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="U2" pin="2" pinfunction="V-" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="RLO" pintype="input"/>
+      <node ref="VR1" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad3)">
+      <node ref="D1" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="8" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(LED1-Pad11)">
+      <node ref="LED1" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="U2" pin="1" pinfunction="LED1" pintype="open_collector"/>
+    </net>
+    <net code="10" name="Net-(LED1-Pad12)">
+      <node ref="LED1" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="U2" pin="18" pinfunction="LED2" pintype="open_collector"/>
+    </net>
+    <net code="11" name="Net-(LED1-Pad13)">
+      <node ref="LED1" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="U2" pin="17" pinfunction="LED3" pintype="open_collector"/>
+    </net>
+    <net code="12" name="Net-(LED1-Pad14)">
+      <node ref="LED1" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="U2" pin="16" pinfunction="LED4" pintype="open_collector"/>
+    </net>
+    <net code="13" name="Net-(LED1-Pad15)">
+      <node ref="LED1" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="U2" pin="15" pinfunction="LED5" pintype="open_collector"/>
+    </net>
+    <net code="14" name="Net-(LED1-Pad16)">
+      <node ref="LED1" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="U2" pin="14" pinfunction="LED6" pintype="open_collector"/>
+    </net>
+    <net code="15" name="Net-(LED1-Pad17)">
+      <node ref="LED1" pin="17" pinfunction="17" pintype="unspecified"/>
+      <node ref="U2" pin="13" pinfunction="LED7" pintype="open_collector"/>
+    </net>
+    <net code="16" name="Net-(LED1-Pad18)">
+      <node ref="LED1" pin="18" pinfunction="18" pintype="unspecified"/>
+      <node ref="U2" pin="12" pinfunction="LED8" pintype="open_collector"/>
+    </net>
+    <net code="17" name="Net-(LED1-Pad19)">
+      <node ref="LED1" pin="19" pinfunction="19" pintype="unspecified"/>
+      <node ref="U2" pin="11" pinfunction="LED9" pintype="open_collector"/>
+    </net>
+    <net code="18" name="Net-(LED1-Pad20)">
+      <node ref="LED1" pin="20" pinfunction="20" pintype="unspecified"/>
+      <node ref="U2" pin="10" pinfunction="LED10" pintype="open_collector"/>
+    </net>
+    <net code="19" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="SIG" pintype="input"/>
+      <node ref="VR1" pin="2" pintype="passive"/>
+      <node ref="VR1" pin="3" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="REFADJ" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="RHI" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="REFOUT" pintype="output"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "XT60-M")(type "KiCad")(uri "${KIPRJMOD}/LIB/XT60-M")(options "")(descr ""))
+  (lib (name "DRV8833BRKT")(type "KiCad")(uri "${KIPRJMOD}/LIB/DRV8833BRKT.pretty")(options "")(descr ""))
+)

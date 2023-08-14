@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "XT60-M")(type "KiCad")(uri "${KIPRJMOD}/LIB/XT60-M/XT60-M.kicad_sym")(options "")(descr ""))
+)

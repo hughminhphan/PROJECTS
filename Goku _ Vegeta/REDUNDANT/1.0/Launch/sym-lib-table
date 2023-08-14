@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-DEVKITC")(type "KiCad")(uri "C:/Users/hughp/Documents/PROJECTS/Goku & Vegeta/001/Launch/Launch Lib/ESP32-DEVKITC/ESP32-DEVKITC.kicad_sym")(options "")(descr ""))
+  (lib (name "SSQ-103-01-T-D")(type "KiCad")(uri "C:/Users/hughp/Documents/PROJECTS/Goku & Vegeta/001/Launch/Launch Lib/SSQ-103-01-T-D/SSQ-103-01-T-D.kicad_sym")(options "")(descr ""))
+)

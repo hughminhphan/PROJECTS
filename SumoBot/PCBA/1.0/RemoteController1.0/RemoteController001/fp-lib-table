@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "TSD1265")(type "KiCad")(uri "C:/Users/hughp/Documents/PROJECTS/SumoBot/PCBA/Components/TSD1265")(options "")(descr ""))
+  (lib (name "COM-09032")(type "KiCad")(uri "C:/Users/hughp/Documents/PROJECTS/SumoBot/PCBA/Components/COM-09032")(options "")(descr ""))
+)

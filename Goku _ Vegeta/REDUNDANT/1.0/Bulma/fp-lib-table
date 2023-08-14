@@ -1,0 +1,13 @@
+(fp_lib_table
+  (lib (name "CL21B104KBCNFNC")(type "KiCad")(uri "${KIPRJMOD}/Bulma Lib/CL21B104KBCNFNC")(options "")(descr ""))
+  (lib (name "DRV8870DDAR")(type "KiCad")(uri "${KIPRJMOD}/Bulma Lib/DRV8870DDAR")(options "")(descr ""))
+  (lib (name "ESP32-DEVKITC")(type "KiCad")(uri "${KIPRJMOD}/Bulma Lib/ESP32-DEVKITC")(options "")(descr ""))
+  (lib (name "FUSC3215X85N")(type "KiCad")(uri "${KIPRJMOD}/Bulma Lib/FUSC3215X85N")(options "")(descr ""))
+  (lib (name "SSQ-103-01-T-D")(type "KiCad")(uri "${KIPRJMOD}/Bulma Lib/SSQ-103-01-T-D")(options "")(descr ""))
+  (lib (name "TO254P1524X483-4N")(type "KiCad")(uri "${KIPRJMOD}/Bulma Lib/TO254P1524X483-4N")(options "")(descr ""))
+  (lib (name "UA7805CKTTR")(type "KiCad")(uri "${KIPRJMOD}/Bulma Lib/UA7805CKTTR")(options "")(descr ""))
+  (lib (name "0686F2000-01FUSE")(type "KiCad")(uri "${KIPRJMOD}/Bulma Lib/0686F2000-01FUSE")(options "")(descr ""))
+  (lib (name "SODFL4725X110Nzener6")(type "KiCad")(uri "${KIPRJMOD}/Bulma Lib/SODFL4725X110Nzener6")(options "")(descr ""))
+  (lib (name "BZT52B13_RHGzener13")(type "KiCad")(uri "${KIPRJMOD}/Bulma Lib/BZT52B13_RHGzener13")(options "")(descr ""))
+  (lib (name "2con78511-202")(type "KiCad")(uri "${KIPRJMOD}/Bulma Lib/2con78511-202")(options "")(descr ""))
+)
