@@ -1666,7 +1666,12 @@
     (uuid fd354a74-47da-4902-9218-802ede71597b)
   )
 
-  (text "ADD SWITCH BREAKOUT" (at 68.58 167.64 0)
+  (text "NOTE TO SELF:" (at 15.24 161.29 0)
+    (effects (font (size 7.62 7.62) (thickness 1.524) bold) (justify left bottom))
+    (uuid 061594b9-e499-4438-a26a-50c473f13357)
+  )
+  (text "ADD SWITCH BREAKOUT\nSEPARATE NRF24L01 BUS FROM SCREENS BUS"
+    (at 17.78 166.37 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 106852dc-ede8-4e82-abfa-6490e85242e9)
   )
