@@ -12,4 +12,5 @@
   (lib (name "NXV55UNR")(type "KiCad")(uri "${KIPRJMOD}/LIB/NXV55UNR")(options "")(descr ""))
   (lib (name "POT_CT-6EP_NDC")(type "KiCad")(uri "${KIPRJMOD}/LIB/POT_CT-6EP_NDC/POT_CT-6EP_NDC.pretty")(options "")(descr ""))
   (lib (name "TB67H420FTG Dual_Single Motor Driver Carrier")(type "KiCad")(uri "${KIPRJMOD}/LIB/TB67H420FTG Dual:Single Motor Driver Carrier")(options "")(descr ""))
+  (lib (name "gv2outlineforkicad")(type "KiCad")(uri "${KIPRJMOD}/gv2outlineforkicad.pretty")(options "")(descr ""))
 )
