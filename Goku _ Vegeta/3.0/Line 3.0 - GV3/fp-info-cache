@@ -1,11 +1,4 @@
-23103979877979058
-ALS-PT19-315C_L177_TR8
-XDCR_ALS-PT19-315C_L177_TR8
-
-
-0
-2
-2
+23087114317748116
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -20,13 +13,6 @@ audio belton reverb
 0
 7
 7
-B3B-XH-A_LF__SN_
-JST_B3B-XH-A(LF)(SN)
-
-
-0
-3
-3
 Batteries
 BATT_BH2AA-PC
 
@@ -370,20 +356,6 @@ battery CR-3032 coin cell vertical
 0
 2
 2
-Box IDC header 2x3
-Box IDC header 2x3
-
-
-0
-6
-6
-Box IDC header 2x5
-Box IDC header 2x5
-
-
-0
-10
-10
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -51918,13 +51890,6 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
-DC-DC Buck Converter 7-24V to 5V 4A
-DC-DC_Buck_Converter_7-24V_to_5V_4A
-
-
-0
-4
-4
 DEV-16771
 MODULE_DEV-16771
 
@@ -53941,13 +53906,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-ESP32-DEVKITC
-MODULE_ESP32-DEVKITC
-
-
-0
-38
-38
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -60157,13 +60115,6 @@ IND_BOURNS_SRP1238A
 0
 2
 2
-JB2835AWT-W-U30GA0000-N0000001
-LED_J2835_CRW
-
-JB2835AWT-W-U30GA0000-N0000001 
-0
-2
-2
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
@@ -64091,13 +64042,6 @@ Mounting 4.5mm 9774100982
 0
 8
 1
-NXV55UNR
-TRANS_BC846B,215
-
-
-0
-3
-3
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -65232,13 +65176,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-POT_CT-6EP_NDC
-POT_CT-6EP_NDC
-
-CT6EP103 
-0
-3
-3
 PTH
 TO220_HORIZ
 
@@ -95913,10 +95850,3 @@ Zigbee_Module_MRF24J40MD
 0
 12
 12
-gv2outlineforkicad
-gv2 3d outline
-
-
-0
-0
-0
