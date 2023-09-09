@@ -1,6 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "Adafruit 9-DOF Orientation IMU Fusion Breakout - BNO085 (BNO080) - STEMMA QT  Qwiic")(type "KiCad")(uri "${KIPRJMOD}/LIB/Adafruit 9-DOF Orientation IMU Fusion Breakout - BNO085 (BNO080) - STEMMA QT  Qwiic/Adafruit 9-DOF Orientation IMU Fusion Breakout - BNO085 (BNO080) - STEMMA QT  Qwiic.kicad_sym")(options "")(descr ""))
-  (lib (name "DC-DC Buck Converter 7-24V to 5V 4A")(type "KiCad")(uri "${KIPRJMOD}/LIB/DC-DC Buck Converter 7-24V to 5V 4A/DC-DC Buck Converter 7-24V to 5V 4A.kicad_sym")(options "")(descr ""))
   (lib (name "DEV-16771")(type "KiCad")(uri "${KIPRJMOD}/LIB/DEV-16771/DEV-16771.kicad_sym")(options "")(descr ""))
 )

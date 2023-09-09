@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -419,7 +419,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Main 3.0.kicad_pro",
+    "filename": "Line 3.0.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -455,7 +455,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "DOC/Main 2.4 3D Model",
+      "step": "DOC/Line 3.0 3D Model.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
