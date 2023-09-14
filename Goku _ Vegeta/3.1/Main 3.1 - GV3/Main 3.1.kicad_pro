@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.9,
+          "height": 1.4,
+          "width": 1.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -419,7 +419,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Line 3.0.kicad_pro",
+    "filename": "Main 3.1.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -455,7 +455,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "DOC/Line 3.0 3D Model.step",
+      "step": "DOC/Main 3.1 3D Model.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""
