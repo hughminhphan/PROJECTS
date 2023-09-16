@@ -1,4 +1,46 @@
-23088815075234512
+23104023231206224
+2.3 PCBs
+Adafruit IMU BNO055
+
+
+0
+10
+10
+2.3 PCBs
+DC-DC_Buck_Converter_7-24V_to_5V_4A
+
+
+0
+4
+4
+2.3 PCBs
+Lipo Buzzer Vertical
+
+
+0
+8
+8
+2.3 PCBs
+MPM3610 3.3V Buck Converter Breakout - 21V In 3.3V Out at 1.2A
+
+
+0
+4
+4
+2.3 PCBs
+Main 3.1 3D Model
+
+
+0
+0
+0
+Adafruit 9-DOF Orientation IMU Fusion Breakout - BNO085 (BNO080) - STEMMA QT  Qwiic
+Adafruit 9-DOF Orientation IMU Fusion Breakout - BNO085 (BNO080) - STEMMA QT  Qwiic
+
+
+0
+16
+16
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51918,6 +51960,20 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DC-DC Buck Converter 7-24V to 5V 4A
+DC-DC_Buck_Converter_7-24V_to_5V_4A
+
+
+0
+4
+4
+DEV-16771
+MODULE_DEV-16771
+
+
+0
+65
+65
 Digilent
 PMOD_DOUBLE_FEMALE
 
@@ -86981,6 +87037,13 @@ Logo WEEE
 0
 0
 0
+TB67H420FTG Dual_Single Motor Driver Carrier
+TB67H420FTG DualSingle Motor Driver Carrier
+
+
+0
+24
+23
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
