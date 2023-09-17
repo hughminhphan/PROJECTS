@@ -18811,7 +18811,7 @@
 
   (footprint "LOGO" (layer "B.Cu")
     (tstamp c6cd70fc-63a8-4778-8a12-f89a7261c961)
-    (at 57 128 90)
+    (at 42.75 128 90)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0 90) (layer "B.SilkS") hide
         (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))

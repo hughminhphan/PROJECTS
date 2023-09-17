@@ -1,4 +1,4 @@
-23104023231206224
+23105718199205943
 2.3 PCBs
 Adafruit IMU BNO055
 
@@ -81696,6 +81696,13 @@ NINA ublox u-blox b111 bluetooth nrf52840 module
 0
 42
 42
+RF_Module
+NRF24L01_SMD_Module
+
+
+0
+8
+8
 RF_Module
 Particle_P1
 https://docs.particle.io/datasheets/p1-datasheet/
