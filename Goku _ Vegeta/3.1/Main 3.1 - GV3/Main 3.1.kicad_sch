@@ -5538,6 +5538,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8ac83bf9-057e-4022-be63-4003cc670f48)
   )
+  (label "LINE BREAK" (at 539.75 133.35 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 8b3b11f4-27d2-4b7b-8893-6f29f835a2cc)
+  )
   (label "35" (at 544.83 121.92 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8c174b60-7f2c-4017-a0bf-c4b046ba9390)
@@ -7408,9 +7412,9 @@
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/stth2002.pdf" (at 378.46 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e1694b21-9059-4618-ba61-891f883c0f30))
-    (pin "1" (uuid 070be244-c03a-4999-b5b3-c17605d549d2))
-    (pin "3" (uuid d0d706c4-95d0-402c-a8a3-5f9ea46b829b))
+    (pin "2" (uuid 132d7aa7-476c-4f4a-b373-ac0bafcf6c4f))
+    (pin "1" (uuid f46ebecd-cfe5-490e-8e4a-ada80fa0ba68))
+    (pin "3" (uuid ac4a2446-4a11-4a61-959d-14b6d3e3c565))
     (instances
       (project "Main 3.1"
         (path "/d5c7bd24-918a-4dd6-9ba7-d38579daba08"

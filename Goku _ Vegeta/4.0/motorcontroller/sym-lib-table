@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DEV-15583")(type "KiCad")(uri "${KIPRJMOD}/LIB/DEV-15583/DEV-15583.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8873HPWPR")(type "KiCad")(uri "${KIPRJMOD}/LIB/DRV8873HPWPR/DRV8873HPWPR.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ALS-PT19-315C_L177_TR8")(type "KiCad")(uri "${KIPRJMOD}/LIB/ALS-PT19-315C_L177_TR8")(options "")(descr ""))
+  (lib (name "DEV-16771")(type "KiCad")(uri "${KIPRJMOD}/LIB/DEV-16771")(options "")(descr ""))
+  (lib (name "JB2835AWT-W-U30GA0000-N0000001")(type "KiCad")(uri "${KIPRJMOD}/LIB/JB2835AWT-W-U30GA0000-N0000001")(options "")(descr ""))
+)

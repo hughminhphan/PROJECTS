@@ -28,20 +28,20 @@ void setup() {
 void loop() {
   if (radio.available()) {
     radio.read(&values, sizeof(values));
-    if (values[0] > 50) {
+    if (values[0] > 55) {
       analogWrite(motorpins[2], map(values[0], 50, 100, 255, 0));
       digitalWrite(motorpins[0], HIGH);
-    } else if (values[0] < 50) {
+    } else if (values[0] < 45) {
       analogWrite(motorpins[0], map(values[0], 50, 0, 255, 0));
       digitalWrite(motorpins[2], HIGH);
     } else {
       digitalWrite(motorpins[0], HIGH);
       digitalWrite(motorpins[2], HIGH);
     }
-    if (values[1] > 50) {
+    if (values[1] > 55) {
       analogWrite(motorpins[1], map(values[1], 50, 100, 255, 0));
       digitalWrite(motorpins[3], HIGH);
-    } else if (values[1] < 50) {
+    } else if (values[1] < 45) {
       analogWrite(motorpins[3], map(values[1], 50, 0, 255, 0));
       digitalWrite(motorpins[1], HIGH);
     } else {

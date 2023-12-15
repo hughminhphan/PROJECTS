@@ -11,9 +11,11 @@ int values[8];
 int lastvalues[8];
 int speed[2];
 int leftpotmin = 0;
-int leftpotmax = 1000;
+int leftpotmax = 1023;
+int leftpotmid = 400;
 int rightpotmin = 0;
-int rightpotmax = 1000;
+int rightpotmax = 1023;
+int rightpotmid = 400;
 
 void setup() {
   pinMode(A0, INPUT);
@@ -43,9 +45,16 @@ void loop() {
   values[5] = digitalRead(buttonPins[3]);
   values[6] = digitalRead(buttonPins[4]);
   values[7] = digitalRead(buttonPins[5]);
-
-  values[0] = map(values[0], leftpotmin, leftpotmax, 0, 100);
-  values[1] = map(values[1], leftpotmin, leftpotmax, 0, 100);
+  if (values[0] >= leftpotmid) {
+    values[0] = map(values[0], leftpotmid, leftpotmax, 50, 100);
+  } else if (values[0] < leftpotmid) {
+    values[0] = map(values[0], leftpotmin, leftpotmid, 0, 50);
+  }
+  if (values[1] >= rightpotmid) {
+    values[1] = map(values[1], rightpotmid, rightpotmax, 50, 100);
+  } else if (values[0] < rightpotmid) {
+    values[1] = map(values[1], rightpotmin, rightpotmid, 0, 50);
+  }
   if (values[0] > 90) {
     values[0] = 100;
   } else if (values[0] < 10) {
@@ -64,17 +73,6 @@ void loop() {
   if (values[2] == HIGH && values[5] == HIGH) {
     calibrateJoysticks();
   }
-  if (digitalRead(buttonPins[0]) == HIGH && lastvalues[2] == LOW) {
-    attackWoodpecker();
-  }
-  // if (digitalRead(buttonPins[1]) == HIGH) {
-  //   attackButtSex();
-  // }
-  for (int i = 0; i < 7; i++) {
-    Serial.print(values[i]);
-    Serial.print(", ");
-  }
-  Serial.println(values[7]);
   speed[0] = values[0];
   speed[1] = values[1];
 
@@ -83,8 +81,10 @@ void loop() {
     lastvalues[i] = values[i];
   }
 }
-
 void calibrateJoysticks() {
+  leftpotmid = analogRead(potentiometerPins[0]);
+  rightpotmid = analogRead(potentiometerPins[1]);
+
   while (digitalRead(buttonPins[4]) == LOW) {
     if (digitalRead(buttonPins[3]) == HIGH) {
       leftpotmin = analogRead(potentiometerPins[0]);
@@ -93,50 +93,10 @@ void calibrateJoysticks() {
       leftpotmax = analogRead(potentiometerPins[0]);
     }
     if (digitalRead(buttonPins[1]) == HIGH) {
-      leftpotmin = analogRead(potentiometerPins[1]);
+      rightpotmin = analogRead(potentiometerPins[1]);
     }
     if (digitalRead(buttonPins[0]) == HIGH) {
-      leftpotmax = analogRead(potentiometerPins[1]);
+      rightpotmax = analogRead(potentiometerPins[1]);
     }
   }
-}
-
-void attackWoodpecker() {
-  Serial.println("Woodpecker start");
-  speed[0] = 100;
-  speed[1] = 100;
-  radio.write(&speed, sizeof(speed));
-  delay(500);
-  speed[0] = 0;
-  speed[1] = 0;
-  radio.write(&speed, sizeof(speed));
-  delay(500);
-  speed[0] = 100;
-  speed[1] = 100;
-  radio.write(&speed, sizeof(speed));
-  delay(500);
-  speed[0] = 0;
-  speed[1] = 0;
-  radio.write(&speed, sizeof(speed));
-  delay(500);
-  speed[0] = 100;
-  speed[1] = 100;
-  radio.write(&speed, sizeof(speed));
-  delay(500);
-  speed[0] = 0;
-  speed[1] = 0;
-  radio.write(&speed, sizeof(speed));
-  delay(500);
-  speed[0] = 100;
-  speed[1] = 100;
-  radio.write(&speed, sizeof(speed));
-  delay(500);
-  speed[0] = 0;
-  speed[1] = 0;
-  radio.write(&speed, sizeof(speed));
-  delay(500);
-  speed[0] = 50;
-  speed[1] = 50;
-  radio.write(&speed, sizeof(speed));
-  Serial.println("woodpecker done");
 }

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CSD18543Q3A")(type "KiCad")(uri "${KIPRJMOD}/LIB/CSD18543Q3A/CSD18543Q3A.kicad_sym")(options "")(descr ""))
+  (lib (name "AOD409")(type "KiCad")(uri "${KIPRJMOD}/LIB/AOD409/AOD409.kicad_sym")(options "")(descr ""))
+)
