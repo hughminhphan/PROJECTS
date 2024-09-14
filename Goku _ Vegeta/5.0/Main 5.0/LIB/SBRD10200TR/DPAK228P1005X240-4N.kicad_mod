@@ -1,0 +1,141 @@
+(footprint "DPAK228P1005X240-4N" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at -0.768 -6.3064) (layer "F.SilkS")
+      (effects (font (size 0.64 0.64) (thickness 0.15)))
+    (tstamp 0125a53d-4667-4c9e-9d5a-c40f6bc588dd)
+  )
+  (fp_text value "DPAK228P1005X240-4N" (at 4.6216 6.7936) (layer "F.Fab")
+      (effects (font (size 0.64 0.64) (thickness 0.15)))
+    (tstamp a446e9f2-fcc3-4592-ae9d-93ce1e42c786)
+  )
+  (fp_poly
+    (pts
+      (xy -2.535 -5.27)
+      (xy -1.225 -5.27)
+      (xy -1.225 -3.81)
+      (xy -2.535 -3.81)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 3cac2322-fc42-4983-ba28-7585c63cb8eb))
+  (fp_poly
+    (pts
+      (xy -2.535 -3.24)
+      (xy -1.225 -3.24)
+      (xy -1.225 -1.78)
+      (xy -2.535 -1.78)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 81ac6118-a194-4c6c-9446-bbcee422ecce))
+  (fp_poly
+    (pts
+      (xy -2.535 -1.21)
+      (xy -1.225 -1.21)
+      (xy -1.225 0.25)
+      (xy -2.535 0.25)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 800e8544-a544-4419-8a30-70b255769c05))
+  (fp_poly
+    (pts
+      (xy -0.655 -5.27)
+      (xy 0.655 -5.27)
+      (xy 0.655 -3.81)
+      (xy -0.655 -3.81)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 8ef5d7ad-51d6-4670-b922-010e480eeb9f))
+  (fp_poly
+    (pts
+      (xy -0.655 -3.24)
+      (xy 0.655 -3.24)
+      (xy 0.655 -1.78)
+      (xy -0.655 -1.78)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 15b0a376-7ed4-438c-a4a3-9570c21ba19e))
+  (fp_poly
+    (pts
+      (xy -0.655 -1.21)
+      (xy 0.655 -1.21)
+      (xy 0.655 0.25)
+      (xy -0.655 0.25)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 1b60f97d-826a-4d2b-ada2-0e13316bfb06))
+  (fp_poly
+    (pts
+      (xy 1.225 -5.27)
+      (xy 2.535 -5.27)
+      (xy 2.535 -3.81)
+      (xy 1.225 -3.81)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 628036d3-58ae-4da0-bb84-17f1d5a62a4b))
+  (fp_poly
+    (pts
+      (xy 1.225 -3.24)
+      (xy 2.535 -3.24)
+      (xy 2.535 -1.78)
+      (xy 1.225 -1.78)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp c81012f6-d03b-4815-afc4-5763fc763e69))
+  (fp_poly
+    (pts
+      (xy 1.225 -1.21)
+      (xy 2.535 -1.21)
+      (xy 2.535 0.25)
+      (xy 1.225 0.25)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp bd141950-7f2d-482c-9525-24ab351d5618))
+  (fp_line (start -3.35 -4.185) (end -3.35 2.015)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 5eb24487-b4b0-4b9e-a9d7-83124feb933c))
+  (fp_line (start -3.35 2.015) (end 3.35 2.015)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 31c1dbeb-4ab4-49b2-b803-620c332deb2e))
+  (fp_line (start 3.35 2.015) (end 3.35 -4.185)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp b7ef0a95-5ed6-4bbd-93ec-4ebdf168e436))
+  (fp_circle (center -2.3 6.1) (end -2.2 6.1)
+    (stroke (width 0.2) (type solid)) (fill none) (layer "F.SilkS") (tstamp ece18da5-885d-44a9-977b-5670d8846daa))
+  (fp_line (start -3.6 -4.44) (end -3.6 2.27)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 8a067e79-40b2-4d40-8339-3bede5363035))
+  (fp_line (start -3.6 2.27) (end -3.02 2.27)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 6c316d5a-b792-4143-830c-40aa80e9c47f))
+  (fp_line (start -3.065 -5.81) (end -3.065 -4.44)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 4445638f-8656-403f-a95b-c97a938a07a9))
+  (fp_line (start -3.065 -5.81) (end 3.065 -5.81)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp ccf74cad-a5f9-46c5-8b4e-76574b066c13))
+  (fp_line (start -3.065 -4.44) (end -3.6 -4.44)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 69d34752-0679-4802-ae49-e80f8170ea76))
+  (fp_line (start -3.02 2.27) (end -3.02 5.81)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 14d76706-2106-486e-a2aa-c04ba58b0a86))
+  (fp_line (start -3.02 5.81) (end 3.02 5.81)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 9736d4f1-1ede-4ae7-963b-0b91723e9e6d))
+  (fp_line (start 3.02 2.27) (end 3.02 5.81)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 5ed48a55-39d6-45e6-a825-9c49cd8692ac))
+  (fp_line (start 3.065 -5.81) (end 3.065 -4.44)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 19889e7c-85c3-43ea-b82a-eb9e53b044b2))
+  (fp_line (start 3.065 -4.44) (end 3.6 -4.44)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 93d32b6d-33f6-4c6f-a34f-9a300ddea0d6))
+  (fp_line (start 3.6 -4.44) (end 3.6 2.27)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 9e70e495-6464-44d4-8a7b-8cab4b52aa3c))
+  (fp_line (start 3.6 2.27) (end 3.02 2.27)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp a207829b-359a-4358-b53d-d7d655f4fe02))
+  (fp_line (start -3.35 -4.185) (end 3.35 -4.185)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 839d2747-a4c2-4bc1-9836-4b29b61ce5a6))
+  (fp_line (start -3.35 2.015) (end -3.35 -4.185)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp b6b6bf9a-0748-45ad-927f-ed9964d5c8e1))
+  (fp_line (start 3.35 -4.185) (end 3.35 2.015)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 3fea905a-0ee0-46bd-a373-a164772e8d5a))
+  (fp_line (start 3.35 2.015) (end -3.35 2.015)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 912a53ba-9351-4707-9c93-9d8bcb9bbd50))
+  (fp_circle (center -2.3 6.1) (end -2.2 6.1)
+    (stroke (width 0.2) (type solid)) (fill none) (layer "F.Fab") (tstamp e70522f6-cfde-495f-8412-e95b0a544071))
+  (pad "1" smd roundrect (at -2.286 4.24 90) (size 2.64 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.24)
+    (solder_mask_margin 0.102) (tstamp f47e5769-14d9-47bb-83cd-ab4bfcbc4fd3))
+  (pad "2" smd rect (at 0 -2.51 90) (size 6.09 5.63) (layers "F.Cu" "F.Mask")
+    (solder_mask_margin 0.102) (tstamp 6e6b4ebb-2f71-4a6d-8afb-487cf7a6f67e))
+  (pad "3" smd roundrect (at 2.286 4.24 90) (size 2.64 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.24)
+    (solder_mask_margin 0.102) (tstamp e63c9755-7874-4061-a692-a9ba04486db7))
+)
