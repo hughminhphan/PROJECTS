@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "A4988_STEPPER_MOTOR_DRIVER_CARRIER")(type "KiCad")(uri "${KIPRJMOD}/LIB/A4988_STEPPER_MOTOR_DRIVER_CARRIER")(options "")(descr ""))
+  (lib (name "Adafruit IMU BNO055")(type "KiCad")(uri "${KIPRJMOD}/LIB/Adafruit IMU BNO055")(options "")(descr ""))
+  (lib (name "ESP32-DEVKITC")(type "KiCad")(uri "${KIPRJMOD}/LIB/ESP32-DEVKITC")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/LIB/Library.pretty")(options "")(descr ""))
+  (lib (name "MX1A-11NN")(type "KiCad")(uri "${KIPRJMOD}/LIB/MX1A-11NN")(options "")(descr ""))
+  (lib (name "THB001P")(type "KiCad")(uri "${KIPRJMOD}/LIB/THB001P")(options "")(descr ""))
+)
