@@ -4891,6 +4891,16 @@
 		)
 		(uuid "cef7ca1b-d7ce-46e5-b1fd-3dbed120024d")
 	)
+	(text "need to update"
+		(exclude_from_sim no)
+		(at 50.038 211.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e81f36b4-2093-4ed3-b822-f6486b6ccba2")
+	)
 	(label "SDA"
 		(at 135.89 107.95 0)
 		(fields_autoplaced yes)
