@@ -1,5 +1,5 @@
 // Self-balancing robot code using BNO055 with PI control and microstepping (factor of 4)
-// H.M.Phan - Robonyx - 15/9/24
+// H.M.Phan - Robonyx - 16/9/24
 // Include necessary libraries
 // Include necessary libraries
 #include <Wire.h>
@@ -18,14 +18,14 @@ const int stepPin2 = 4;
 Adafruit_BNO055 bno = Adafruit_BNO055(55, 0x28);
 
 // PID control variables
-double setpoint = 0; // Desired angle (upright position)
-double input = 0.0;    // Current angle from IMU
-double output = 0.0;   // PID controller output
+double setpoint = 3.87;  // Desired angle (upright position)
+double input = 0.0;      // Current angle from IMU
+double output = 0.0;     // PID controller output
 
 // PID tuning parameters (to be adjusted experimentally)
-double Kp = 15;
-double Ki = 0;
-double Kd = 0;
+double Kp = 35;
+double Ki = 5;
+double Kd = 0.05;
 
 // PID calculation variables
 double previousError = 0.0;
@@ -34,8 +34,8 @@ unsigned long lastComputeTime = 0;
 
 // Motor control variables
 unsigned long lastStepTime = 0;
-double stepDelayUs = 1000; // Initial delay between steps in microseconds
-int motorDir = HIGH;       // Initial motor direction
+double stepDelayUs = 1000;  // Initial delay between steps in microseconds
+int motorDir = HIGH;        // Initial motor direction
 
 // Map function for double values
 double mapDouble(double x, double in_min, double in_max, double out_min, double out_max) {
@@ -46,16 +46,17 @@ void setup() {
   // Initialize serial communication
   Serial.begin(115200);
   while (!Serial) {
-    delay(10); // Wait for Serial to initialize
+    delay(10);  // Wait for Serial to initialize
   }
 
   // Initialize the BNO055 sensor
   if (!bno.begin()) {
     Serial.println("Error initializing BNO055! Check your connections.");
-    while (1);
+    while (1)
+      ;
   }
 
-  delay(1000); // Allow sensor initialization
+  delay(1000);  // Allow sensor initialization
 
   // Use external crystal oscillator
   bno.setExtCrystalUse(true);
@@ -72,7 +73,7 @@ void setup() {
 
   // Initialize motor direction
   digitalWrite(dirPin1, motorDir);
-  digitalWrite(dirPin2, !motorDir); // Inverse of motorDir
+  digitalWrite(dirPin2, !motorDir);  // Inverse of motorDir
 
   // Initialize last compute time
   lastComputeTime = millis();
@@ -100,9 +101,13 @@ void loop() {
     updateMotorControl(output);
 
     // Debugging output
-    Serial.print("Pitch: ");
+    Serial.print("Setpoint:");
+    Serial.print(setpoint);
+    Serial.print(",");
+    Serial.print("Pitch:");
     Serial.print(input);
-    Serial.print("°\tPID Output: ");
+    Serial.print(",");
+    Serial.print("PID Output:");
     Serial.println(output);
   }
 
@@ -113,7 +118,7 @@ void loop() {
     // Generate a step pulse
     digitalWrite(stepPin1, HIGH);
     digitalWrite(stepPin2, HIGH);
-    delayMicroseconds(2); // Pulse width
+    delayMicroseconds(2);  // Pulse width
     digitalWrite(stepPin1, LOW);
     digitalWrite(stepPin2, LOW);
   }
@@ -121,7 +126,7 @@ void loop() {
 
 void computePID() {
   unsigned long currentTime = millis();
-  double dt = (currentTime - lastComputeTime) / 1000.0; // Convert to seconds
+  double dt = (currentTime - lastComputeTime) / 1000.0;  // Convert to seconds
   lastComputeTime = currentTime;
 
   // Avoid division by zero
@@ -150,15 +155,15 @@ void computePID() {
 void updateMotorControl(double pidOutput) {
   // Determine motor direction based on PID output
   if (pidOutput > 0) {
-    motorDir = HIGH; // Motor 1 forward, Motor 2 backward
+    motorDir = HIGH;  // Motor 1 forward, Motor 2 backward
   } else {
-    motorDir = LOW;  // Motor 1 backward, Motor 2 forward
-    pidOutput = -pidOutput; // Use absolute value for speed
+    motorDir = LOW;          // Motor 1 backward, Motor 2 forward
+    pidOutput = -pidOutput;  // Use absolute value for speed
   }
 
   // Set motor directions (inverse of each other)
   digitalWrite(dirPin1, motorDir);
-  digitalWrite(dirPin2, !motorDir); // Inverse direction
+  digitalWrite(dirPin2, !motorDir);  // Inverse direction
 
   // Map PID output to steps per second (motor speed)
   const double MaxPIDOutput = 255.0;        // Maximum PID output
