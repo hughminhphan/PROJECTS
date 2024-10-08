@@ -1,6 +1,9 @@
+// ki 70
+// kp 20
+// kd (setpoint) 3
+
 // // Testing the motor movement with the ESP32 controlling a standard nema17 motor using the a4988 motor driver
 // // H.M.Phan - Robonyx - 15/9/24
-
 // Define pin connections for Motor 1
 const int dirPin1 = 15;
 const int stepPin1 = 2;
@@ -10,9 +13,9 @@ const int dirPin2 = 0;
 const int stepPin2 = 4;
 
 // Define ramping parameters
-const int rampSteps = 1000;          // Number of steps to ramp up/down
-const int maxSpeedDelay = 200;       // Minimum delay between steps (microseconds) at max speed
-const int minSpeedDelay = 1000;      // Maximum delay between steps (microseconds) at min speed
+const int rampSteps = 4000;          // Increased number of steps to ramp up/down
+const int maxSpeedDelay = 100;       // Minimum delay between steps (microseconds) at max speed
+const int minSpeedDelay = 800;       // Maximum delay between steps (microseconds) at min speed
 
 void setup() {
   // Initialize the output pins for Motor 1
@@ -52,7 +55,7 @@ void moveMotors(int dir1, int dir2) {
   }
 
   // Run at maximum speed
-  for (int i = 0; i < 1000; i++) {
+  for (int i = 0; i < 4000; i++) {
     stepMotors(maxSpeedDelay);
   }
 
@@ -72,5 +75,3 @@ void stepMotors(int delayUs) {
   digitalWrite(stepPin2, LOW);
   delayMicroseconds(delayUs);
 }
-
-
