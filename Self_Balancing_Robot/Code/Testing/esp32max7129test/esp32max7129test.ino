@@ -14,7 +14,7 @@
 #define DATA_PIN 23  // DIN pin connected to IO23
 #define CS_PIN   17  // CS pins of both modules connected to IO17
 #define CLK_PIN  18  // CLK pin connected to IO18
-
+opiu
 // Create a new instance of the MD_MAX72XX class with hardware SPI
 MD_MAX72XX mx = MD_MAX72XX(HARDWARE_TYPE, CS_PIN, MAX_DEVICES);
 
