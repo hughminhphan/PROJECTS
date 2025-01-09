@@ -27,5 +27,6 @@ extern int face;
 void displaySetup();
 void displayLoop();
 void displayBitmap(uint8_t device, const uint8_t *bitmap);
+void displayFlicker();
 
 #endif  // DISPLAY_H

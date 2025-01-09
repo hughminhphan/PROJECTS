@@ -61,6 +61,7 @@ void setup() {
 
   // Initialize Display
   displaySetup();
+  displayFlicker();
 }
 
 void loop() {

@@ -14,6 +14,16 @@ const uint8_t PROGMEM neutral[] = {
   B01111110,
   B00111100
 };
+const uint8_t PROGMEM blank[] = {
+  B00000000,
+  B00000000,
+  B00000000,
+  B00000000,
+  B00000000,
+  B00000000,
+  B00000000,
+  B00000000
+};
 
 const uint8_t PROGMEM wink[] = {
   B00001100,
@@ -61,6 +71,49 @@ void displaySetup() {
   mx.begin();
   mx.control(MD_MAX72XX::INTENSITY, 2);  // Set brightness (0-15)
   displayBitmap(0, wink);
+  displayBitmap(1, neutral);
+}
+
+void displayFlicker() {
+  displayBitmap(0, neutral);
+  displayBitmap(1, neutral);
+  delay(50);
+  displayBitmap(0, blank);
+  displayBitmap(1, blank);
+  delay(450);
+
+  displayBitmap(0, neutral);
+  displayBitmap(1, neutral);
+  delay(50);
+
+  displayBitmap(0, blank);
+  displayBitmap(1, blank);
+  delay(150);
+
+  displayBitmap(0, neutral);
+  displayBitmap(1, neutral);
+  delay(50);
+
+  displayBitmap(0, blank);
+  displayBitmap(1, blank);
+  delay(150);
+
+  displayBitmap(0, neutral);
+  displayBitmap(1, neutral);
+  delay(50);
+
+  displayBitmap(0, blank);
+  displayBitmap(1, blank);
+  delay(150);
+
+  displayBitmap(0, neutral);
+  displayBitmap(1, neutral);
+  delay(50);
+  displayBitmap(0, blank);
+  displayBitmap(1, blank);
+  delay(150);
+
+  displayBitmap(0, neutral);
   displayBitmap(1, neutral);
 }
 

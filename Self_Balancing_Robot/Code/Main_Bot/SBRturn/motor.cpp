@@ -2,12 +2,12 @@
 #include <AccelStepper.h>
 
 // Define pin connections for Motor 1
-const int dirPin1 = 15;
-const int stepPin1 = 2;
+const int dirPin1 = 0;
+const int stepPin1 = 4;
 
 // Define pin connections for Motor 2
-const int dirPin2 = 0;
-const int stepPin2 = 4;
+const int dirPin2 = 15;
+const int stepPin2 = 2;
 
 // Global instances of AccelStepper
 AccelStepper stepper1(AccelStepper::DRIVER, stepPin1, dirPin1);
